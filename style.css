@@ -54,6 +54,46 @@
         background-image: url(images/dream-bg.png);
         background-repeat: no-repeat;
         background-position: right;
+        margin-right: -8px;
     }
     
-    .half-width img {}
+    .shadow h3 {
+        color: orange;
+    }
+    
+    .mg {
+        margin-bottom: 0;
+    }
+    
+    .shadow {
+        width: 50%;
+        box-shadow: 10px 10px 8px 10px #888888;
+        margin: 40px;
+        padding: 0px 0px 90px 50px;
+        margin-left: 78px;
+        border-left: 10px solid tomato;
+    }
+    
+    .size {
+        font-size: 40px;
+    }
+    
+    .half-width .shadow p {
+        line-height: 1.9;
+    }
+    
+    .copyright {
+        text-align: center;
+        margin-top: 150px;
+    }
+    
+    .Box {
+        background-image: url(images/exp-bg.png);
+        background-repeat: no-repeat;
+        background-position: left center;
+        margin-left: -8px;
+    }
+    
+    #blue {
+        border-image: linear-gradient(#0210d6, #09f7ff) 50;
+    }
