@@ -97,3 +97,20 @@
     #blue {
         border-image: linear-gradient(#0210d6, #09f7ff) 50;
     }
+    
+    svg {
+        width: 100%;
+    }
+    
+    .squiggle {
+        animation: shift 1s linear infinite;
+    }
+    
+    @keyframes shift {
+        from {
+            transform: translateX(0);
+        }
+        to {
+            transform: translateX(-20px);
+        }
+    }
